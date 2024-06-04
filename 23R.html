@@ -4,72 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="23R.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>タナカ探し</title>
 </head>
 <body style="background-color: #000000;">
-
-     
-// HTML
-<div class="loader">
-  <p class="txt">ふわっと出す</p>
-</div>
- 
-// CSS
-<style>
-.loader {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: 555;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.loader .txt {
-  font-size: 45px;
-  font-weight: bold;
-  color: #fff;
-  display: none;
-}
-</style>
- 
-// jQuery
-<script>
-$(function () {
-  // ローダー終了
-  function end_loader() {
-    $('.loader').fadeOut(800);
-  }
-  // テキスト表示
-  function show_txt() {
-    $('.loader .txt').fadeIn(400);
-  }
-  // テキスト非表示
-  function hide_txt() {
-    $('.loader .txt').fadeOut(400);
-  }
- 
-  // タイマー処理
-  $(window).on('load', function () {
-    // 処理①
-    setTimeout(function () {
-      show_txt();
-    }, 1000)
-    // 処理②
-    setTimeout(function () {
-      hide_txt();
-    }, 3500)
-    // 処理③
-    setTimeout(function () {
-      end_loader();
-    }, 4500)
-  })
-})
-</script>
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <div class="loader">
+      <p class="txt">ふわっと出す</p>
+    </div>
+     <script src="js/load.js"></script>
 
     <p><img src="images/title.png" alt="くま"></p>
 
