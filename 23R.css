@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*ここに書いていきます*/
+body {
+    font-family:  "ヒラギノ明朝 ProN","HiraMinProN","游明朝","Yu Mincho",serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
