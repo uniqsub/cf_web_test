@@ -34,18 +34,21 @@ body {
     font-weight: bold;
     color: #fff;
     display: none;
+    top: 50%;
   }
 .loader .txt2 {
   font-size: 45px;
   font-weight: bold;
   color: #900000;
   display: none;
+    top: 50%;
 }
 .loader .txt3 {
   font-size: 45px;
   font-weight: bold;
   color: #fff;
   display: none;
+    top: 50%;
 }
 
 
