@@ -12,12 +12,18 @@ p{
     text-align: center;
 }
 
+.maintxt{
+    position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .resizetitle img { 
     width: 100%; 
 }
 //なぜ
 .loader {
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: #000;
