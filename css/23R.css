@@ -55,9 +55,3 @@ body {
 background-position: center;
     background-height: 100%; 
 }
-
-.loadtxt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
