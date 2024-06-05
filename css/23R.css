@@ -9,6 +9,10 @@ body {
 .resizetitle img { 
     width: 100%; 
 }
+.vtrl{
+    writing-mode: vertical-rl;
+}
+
 /*なぜ*/
 .loader {
     position: fixed;
@@ -41,6 +45,7 @@ body {
   color: #fff;
   display: none;
 }
+
 
 .maintxt{
     position: absolute;
