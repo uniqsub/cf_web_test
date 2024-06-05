@@ -8,6 +8,7 @@ body {
 
 .resizetitle img { 
     width: 100%; 
+    max-width: 800px;
 }
 .vtrl{
     writing-mode: vertical-rl;
@@ -49,9 +50,7 @@ body {
 
 
 .maintxt{
-    position: absolute;
   top: 0px;
-  left: 50%;
 }
 
 body {
