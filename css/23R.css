@@ -12,8 +12,12 @@ body {
 }
 
 .resizetitle img { 
+    position: fixed;
     width: 100%; 
     max-width: 800px;
+    inset: 0;
+    margin: auto;
+    
 }
 .vtrl{
     writing-mode: vertical-rl;
