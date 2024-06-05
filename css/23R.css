@@ -9,7 +9,7 @@ body {
 .resizetitle img { 
     width: 100%; 
 }
-//なぜ
+/*なぜ*/
 .loader {
     position: fixed;
     width: 100%;
@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-    ////font-weight: bold
+    /*font-weight: bold;*/
   .loader .txt {
     font-size: 45px;
     color: #fff;
