@@ -41,7 +41,7 @@ body {
     color: #fff;
     display: none;
     left: calc(50% + 100px);
-    transform: translate(-100%,-125px);
+    transform: translate(-125%,-125px);
   }
 .loader .txt2 {
   position: absolute;
@@ -50,7 +50,7 @@ body {
   color: #900000;
   display: none;
   left: 50%;
-  transform: translate(-100%,-125px);
+  transform: translate(-125%,-125px);
 }
 .loader .txt3 {
   position: absolute;
@@ -59,7 +59,7 @@ body {
   color: #fff;
   display: none;
   left: calc(50% - 100px);
-  transform: translate(-100%,-125px);
+  transform: translate(-125%,-125px);
 }
 
 
