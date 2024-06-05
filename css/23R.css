@@ -11,6 +11,7 @@ body {
 }
 .vtrl{
     writing-mode: vertical-rl;
+    text-align: left;
 }
 
 /*なぜ*/
