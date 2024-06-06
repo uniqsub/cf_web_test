@@ -12,12 +12,8 @@ body {
 }
 
 .resizetitle img { 
-    position: absolute;
     width: 100%; 
     max-width: 800px;
-    inset: 0;
-    margin: auto;
-    
 }
 .vtrl{
     writing-mode: vertical-rl;
@@ -68,7 +64,9 @@ body {
 
 
 .maintxt{
-  top: 500px;
+  position: absolute;
+　inset: 0;
+  margin: auto;
 }
 
 .txtup {
