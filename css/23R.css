@@ -12,7 +12,7 @@ body {
 }
 
 .resizetitle img { 
-    position: fixed;
+    position: absolute;
     width: 100%; 
     max-width: 800px;
     inset: 0;
