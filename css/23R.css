@@ -41,13 +41,18 @@ body {
     color: #fff;
     display: none;
     left: calc(50% + 100px);
+<<<<<<< HEAD
     transform: translate(-115%,-175px);
+=======
+    transform: translate(-115%,-125px);
+>>>>>>> ece9e7472efc6634fba0eca8824708f05868b727
   }
   
 .loader .txt2 {
   position: absolute;
   font-size: 45px;
   font-weight: bold;
+<<<<<<< HEAD
   color: #fff;
   display: none;
   left: calc(50% - 100px);
@@ -60,6 +65,28 @@ body {
 }
 .loadclcg {
   color: #970000;
+=======
+  color: #B00000;
+  display: none;
+  left: 50%;
+  transform: translate(-115%,-125px);
+}
+.loader .txt3 {
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+  display: none;
+  left: calc(50% - 100px);
+  transform: translate(-115%,-125px);
+}
+
+
+.maintxt{
+  position: absolute;
+　inset: 0;
+  margin: auto;
+>>>>>>> ece9e7472efc6634fba0eca8824708f05868b727
 }
 
 .txtup {
