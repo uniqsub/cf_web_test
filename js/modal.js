@@ -1,6 +1,6 @@
 $(function(){
 	// 変数に要素を入れる
-	var open = $('.button-1'),
+	var open = $('.modal-open'),
 		close = $('.modal-close'),
 		container = $('.modal-container');
 
